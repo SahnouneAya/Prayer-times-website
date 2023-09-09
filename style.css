@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    direction: rtl;
+    background:linear-gradient(45deg, #240165,#05001c) ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.info{
+    margin:5px 40px 0 0;
+}
+
+.info h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 150px;
+}
+
+.info h6{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+hr{
+    margin: 0 40px;
+    border-color: #520052;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+    height: 300px;
+}
+
+.card{
+    width: 12%;
+    height: 70%;
+    background-color: #fff;
+    font-size: 20px;
+    box-shadow: 0px 10px 5px rgb(0 0 0 / 30%);
+}
+
+.header{
+    padding: 0 5px;
+    background:linear-gradient(45deg, #5709ee, #7a37bf) ;
+    color: #fff;
+}
+
+.header h1{
+    font-weight: 400;
+}
+
+.time{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time h1{
+    font-size: 50px;
+}
+
+.select{
+    text-align: center;
+}
+
+select{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Tajawal';
+}
+
+select option{
+    background-color: #05001c;
+}
