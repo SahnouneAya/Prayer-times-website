@@ -1,7 +1,7 @@
 let cities = [
     {
-        arabicName:" باتنة",
-        name:"Batna"
+        arabicName:" تاجزائر العاصمة",
+        name:"Algiers"
     },
     {
         arabicName:"وهران",
